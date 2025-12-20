@@ -80,7 +80,7 @@ class AIDoctor:
                 "role": "system", 
                 "content": f"""The patient's information:
                 - Name of the user: {user_info['name']}
-                - Age: {user_info['age']} years
+                - Age of the user: {user_info['age']} years
                 - Sex: {user_info['sex']}
                 - Height: {user_info['height']} cm
                 - Weight: {user_info['weight']} kg
