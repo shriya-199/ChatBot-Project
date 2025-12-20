@@ -134,7 +134,7 @@ class StreamlitApp:
 
         # Use Streamlit's chat input instead of form
         user_input = st.chat_input(
-            placeholder="Describe your symptoms or ask any health-related questions here",
+            placeholder="Describe your symptoms or ask any health-related questions here.!",
             key="chat_input"
         )
         
