@@ -79,7 +79,7 @@ class AIDoctor:
             user_context = {
                 "role": "system", 
                 "content": f"""The patient's information:
-                - Name: {user_info['name']}
+                - Name of the user: {user_info['name']}
                 - Age: {user_info['age']} years
                 - Sex: {user_info['sex']}
                 - Height: {user_info['height']} cm
